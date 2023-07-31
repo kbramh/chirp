@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+#main {
+  margin-left: 250px;
+  padding: 32px;
+}
+
+.sidenav {
+  height: 80vh;
+  position: absolute;
+  top: 10%;
+  width: 250px;
+}
+
+.sidenav a {
+  color: black;
+  display: block;
+  font-size: 25px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: darkgrey;
+}
