@@ -1,19 +1,35 @@
 body {
-  margin: 0px;
+  padding: 0px !important;
 }
 
 #main {
   margin-left: 250px;
-  margin-top: 32px;
   padding: 32px;
   width: 50%;
+  max-width: 500px;
+}
+
+#main h1 {
+  margin-top: 0px;
+}
+
+#main .frontnav:nth-child(1) {
+  margin-top: 100px;
 }
 
 .sidenav {
-  height: 80vh;
+  border-right: solid;
+  height: 100vh;
   position: absolute;
-  top: 10%;
+  text-align: center;
+  user-select: none;
   width: 250px;
+}
+
+.sidenav h1 {
+  display: block;
+  margin-left: 32px;
+  margin-top: 32px;
 }
 
 .sidenav a {
@@ -26,13 +42,45 @@ body {
 }
 
 .sidenav a:hover {
-  color: darkgrey;
+  color: rgb(100, 100, 200);
+  text-decoration: none;
+}
+
+.sidenav .active {
+  color: dodgerblue;
 }
 
 .frontnav {
   background-color: aliceblue;
+  border-radius: 16px;
   font-size: 24px;
-  margin: 32px;
-  padding: 32px;
-  width: 50%;
+  margin: 0 0 32px 0;
+  padding: 16px;
+}
+
+.frontnav-header {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 16px;
+  user-select: none;
+}
+
+.frontnav-description {
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 4px;
+  user-select: none;
+}
+
+.frontnav-footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  padding-top: 16px;
+  user-select: none;
+}
+
+.frontnav-footer .frontnav-action {
+  cursor: pointer;
+  margin-right: 16px;
 }
