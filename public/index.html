@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chirp</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mvp.css/1.6.2/mvp.min.css" integrity="sha512-tZVyyy74tG8/Oaodtf7gkAAEzTMrxjvAydhRxqFhETfZ1oMyd4NX+Vzi+bQSm8EJ65fPPICK+7sI9lQ1T1srfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Chirp</title>
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://unpkg.com/mvp.css">
-</head>
+  <body>
+    <div class="sidenav">
+      <a class="active" href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Search</a>
+    </div>
 
-<body>
-
-  <div class="sidenav">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
-
-  <div id="main">
-    <div class="frontnav">First chirp</div>
-    <div class="frontnav">Second chirp</div>
-  </div>
-
-</body>
-
+    <div id="main">
+      <h1>Home</h1>
+      <div class="frontnav">
+        <div class="frontnav-header">
+          Kyle Bramhall
+          <div class="frontnav-description">@kbramh</div>
+        </div>
+        <div class="frontnav-content">First chirp content</div>
+        <div class="frontnav-footer">
+          <i class="fa-solid fa-heart frontnav-action"></i>
+          <i class="fa-solid fa-comment frontnav-action"></i>
+          <i class="fa-solid fa-share frontnav-action"></i>
+        </div>
+      </div>
+      <div class="frontnav">
+        <div class="frontnav-header">
+          Zachary Dodge
+          <div class="frontnav-description">@dodgez</div>
+        </div>
+        <div class="frontnav-content">Second chirp</div>
+        <div class="frontnav-footer">
+          <i class="fa-solid fa-heart frontnav-action"></i>
+          <i class="fa-solid fa-comment frontnav-action"></i>
+          <i class="fa-solid fa-share frontnav-action"></i>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
