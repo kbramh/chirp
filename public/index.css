@@ -13,9 +13,6 @@ body {
   margin-top: 0px;
 }
 
-#main .frontnav:nth-child(1) {
-  margin-top: 100px;
-}
 
 .sidenav {
   border-right: solid;
@@ -48,6 +45,20 @@ body {
 
 .sidenav .active {
   color: dodgerblue;
+}
+
+.chirp-message-box {
+  background-color: gray;
+  border-radius: 16px;
+  font-size: 24px;
+  margin: 0 0 32px 0;
+  padding: 16px;
+}
+
+.line-style {
+  background-color: lightgrey;
+  margin: 0 0 32px 0;
+  padding: 16px;
 }
 
 .frontnav {
