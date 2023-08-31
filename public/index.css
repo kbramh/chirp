@@ -13,7 +13,6 @@ body {
   margin-top: 0px;
 }
 
-
 .sidenav {
   border-right: solid;
   height: 100vh;
@@ -48,17 +47,44 @@ body {
 }
 
 .chirp-message-box {
-  background-color: gray;
   border-radius: 16px;
+  border-style: solid;
+  border-width: 2px;
   font-size: 24px;
   margin: 0 0 32px 0;
   padding: 16px;
 }
 
+.msg-chat-box {
+  margin: 0px;
+  padding: 0px;
+}
+
+.msg-chat-box textarea {
+  padding: 8px;
+  resize: none;
+  width: calc(100% - 16px);
+}
+
+.msg-chat-box textarea:focus {
+  outline: solid 2px darkgray;
+}
+
+.msg-footer-box {
+  display: flex;
+  justify-content: end;
+}
+
+.msg-footer-box button {
+  background-color: dodgerblue;
+  font-size: 12px;
+  margin: 0px;
+  padding: 8px;
+}
+
 .line-style {
   background-color: lightgrey;
   margin: 0 0 32px 0;
-  padding: 16px;
 }
 
 .frontnav {
