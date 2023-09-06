@@ -119,7 +119,9 @@ body {
 
 .frontnav-footer .frontnav-action {
   cursor: pointer;
-  
+  margin-right: 8px;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .frontnav-footer .frontnav-chirp-data {
