@@ -119,5 +119,13 @@ body {
 
 .frontnav-footer .frontnav-action {
   cursor: pointer;
-  margin-right: 16px;
+  margin-right: 8px;
+  margin-bottom: auto;
+  margin-top: auto;
 }
+
+.frontnav-footer .frontnav-chirp-data {
+  color: dimgray;
+  padding-right: 24px;
+}
+
