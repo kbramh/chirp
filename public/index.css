@@ -129,3 +129,26 @@ body {
   padding-right: 24px;
 }
 
+.bottomnav .active-one {
+  color:black;
+  font-size: 12px;
+  margin-right: 16px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.bottomnav .active-two {
+  color:black;
+  font-size: 12px;
+  margin-right: 16px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.bottomnav .active-three {
+  color:black;
+  font-size: 12px;
+  margin-right: 16px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
