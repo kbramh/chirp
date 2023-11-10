@@ -1,0 +1,16 @@
+{
+  "name": "chirp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "kbramh",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}
