@@ -1,3 +1,5 @@
+//import Login from './Login';
+//import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import { createClient } from '@supabase/supabase-js';
 import React, { useEffect, useState } from 'react';
 
@@ -5,6 +7,10 @@ const supabase = createClient(
   import.meta.env.VITE_API_URL,
   import.meta.env.VITE_API_KEY
 );
+
+//function LoginPage() {
+ // return <Login />;
+//}
 
 export function App() {
   const [data, setData] = useState([]);
